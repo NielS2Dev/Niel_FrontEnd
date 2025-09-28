@@ -64,4 +64,14 @@ main{
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(10px);
     /* É um prefixo específico para navegadores baseados em WebKit, como Safari e versões antigas do Chrome. */
+
+}
+
+#caixa_login{
+    width: 300px;
+    height: 200px;
+    border: dashed 3px blue;
+
+    display: flex;
+    flex-direction: column;
 }

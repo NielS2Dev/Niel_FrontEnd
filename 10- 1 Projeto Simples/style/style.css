@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url(..//media/wallpaper2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#cabeca{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 3px 3px red;
+}
+
+header{
+    border: 3px dashed rgb(229, 255, 0);
+    text-align: center;
+    padding: 10px;
+}
+
+#imagens{
+    border: dashed 3px green;
+    width: 600px;
+    text-align: center;
+}
+
+img{
+    width: 50px;
+    height: auto;
+    transition: width 0.2s, height 0.2s;
+}
+
+img:hover{
+    width: 60px;
+    height: auto;
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+
+}
+
+#caixa_principal{
+    width: 600px;
+    height: 400px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    /* É um prefixo específico para navegadores baseados em WebKit, como Safari e versões antigas do Chrome. */
+}

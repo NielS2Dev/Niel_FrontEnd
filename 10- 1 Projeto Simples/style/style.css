@@ -46,6 +46,10 @@ img:hover{
     height: auto;
 }
 
+#instagram:hover, #youtube:hover, #github:hover {
+    filter: drop-shadow(0 0 15px rgba(12, 204, 12, 0.959));
+    transition: filter 0.3s;
+}
 
 
 main{
@@ -65,6 +69,43 @@ main{
     -webkit-backdrop-filter: blur(10px);
     /* É um prefixo específico para navegadores baseados em WebKit, como Safari e versões antigas do Chrome. */
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+
+#login, #senha {
+    height: 30px;
+    border-radius: 8px;
+    margin-top: 3px;
+    transition: width 0.2s, height 0.2s;
+}
+
+#entrar{
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 5px;
+    transition: width 0.2s, height 0.2s, font-size 0.2s;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 0.9em;
+}
+
+#login:hover, #senha:hover{
+    height: 35px;
+}
+
+#entrar:hover{
+    height: 45px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.0em;
 }
 
 #caixa_login{
